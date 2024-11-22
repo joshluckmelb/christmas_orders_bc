@@ -1,0 +1,135 @@
+<!-- Copyright Blanca Capraro 2024-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Christmas Goodies - BC </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            //event listener for swipe
+        </script>
+        <style type="text/css">
+            body {
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color:rgb(90,90,90)
+            }
+            #container{
+                width:100%;
+            }
+            #menubar{
+                width:95%;
+                margin-left:auto;
+                margin-right:auto;
+          
+            }
+            #logo{
+                display:inline-block;
+                width:80%;
+                font-family:'Brush Script MT', cursive;
+                font-size:10vw;
+                margin-top:0%;
+                color:rgb(50,50,50)
+
+            }
+            #showmenu{
+            /*border: 1px rgb(200,200,200) solid;*/
+            width:15%;
+            /*background-color: rgb(90,90,90);*/
+            display:inline-block;
+            }
+            .fabar{
+                width:40%;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:10%;
+                margin-bottom:10%;
+
+                border-radius: 10%;
+                border:2px rgb(210,210,210) solid;
+                
+
+            }
+            #heading{
+                text-align: left;
+                margin-left:2%;
+                font-size:7vw;
+                padding-top:2%;
+
+            }
+            #productimg{
+                width:80%;
+                margin-left:auto;
+                margin-right:auto;
+                padding-top:0%;
+            }
+            #info{
+                width:95%;
+                padding-top:2%;
+                margin-left:2%
+                    }
+            #carosel{
+                text-align:center;
+                padding-top:2%;
+
+            }
+        </style>
+    </head>
+<body>
+    <div id="container">
+        
+        <!--menu bar-->
+        <div id="menubar">
+            
+            <div id="logo">
+                <p>Blanca Cucina</p>
+            </div>
+
+            <div id="showmenu">
+                <div class="fabar"></div>
+                <div class="fabar"></div>
+                <div class="fabar" style="margin-bottom:0%;"></div>
+            </div>
+        </div>
+        <!--end menubar-->
+        <div id="productimg">
+            <img src="display_placeholder.jpg" style="width:100%;border-radius: 2%;"/>
+        </div>
+        <div id="carosel">
+           <span style="padding-right:5%;"> &lt;</span> 
+           <span> 1/1 </span>
+           <span style="padding-left:5%;"> &gt;</span>
+        </div>
+        <div id="heading">
+            Christmas Hampers - $60
+         </div>
+
+
+ 
+
+       <div id="info">
+            For christmas 2024 I'll be offering a selection of special headmade treats.
+            <ul>
+                <li>6 Gingerbread Bites</li>
+                <li>2 slices Spiced Chocolate Tort</li>
+                <li>Tiramisu Cookies</li>
+                <li>Spices Buns</li>
+                <li>Wholmeal Shortbreads </li>
+            </ul>
+            Spaces are limited, please check your postcode below to see if we can deliver.
+        </div>
+    <div id="postcodechecker">
+    <p>enter your postcode to see delivery options</p>
+        <input type="text">
+       <div class="btn">Check</div> 
+    </div>
+    <div id="datepicker">
+        <p>choose a delivery date</p>
+        <select>
+            <option>Tuesday 10th December</option>
+            <option>Wednesday 11th December</option>
+            <option>Thursday 12th December</option>
+        </select>
+        <div class="btn">Checkout</div>
+    </div>    
+</div>
+</body>
+</html>
